@@ -73,6 +73,12 @@ int main() {
     string sandi = buatSandi(kata);  // Buat sandi
     cout << "Kata asli: " << kata << endl;
     cout << "Sandi: " << sandi << endl;
-
+    /* 
+    Aku kurang ngerti maksudnya sebagian kata asli itu gimana, 
+    jadi aku tambahin huruf konsonannya aja :v
+    */
+    string konsonan = dapatkanKonsonan(sandi);
+    cout << "Konsonan dari sandi: " << konsonan << endl;
+    
     return 0;
 }
